@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #ffe83c;
+  height: 80px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.logo {
+  padding-left: 30px;
+}
+
+.nav_boro_links {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  font-size: 20px;
+  line-height: 1.3em;
+  padding-right: 30px;
+  margin-top: -4.3%;
+}
+
+.nav_boro_links a:link {
+  color: white;
+  text-decoration: none;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  padding-left: 20px;
+}
+
+.nav_boro_links a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_boro_links a:hover {
+  color: white;
+}
+
+.nav_boro_links a:active {
+  color: purple;
+  
+}

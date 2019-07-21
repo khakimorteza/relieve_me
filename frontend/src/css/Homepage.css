@@ -1,0 +1,88 @@
+html {
+  background: url(https://i.pinimg.com/originals/2e/a2/bb/2ea2bbd562204ca9a9b0f682ad61909b.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  justify-content: center;
+}
+
+.home_title {
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 80px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.subtitle {
+  font-family: "Rokkitt", serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  color: #fee84e;
+  text-shadow: 3px 3px 3px black;
+}
+.locationIcon {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.curr_loc {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.browseByBoro {
+  display: flex;
+  justify-content: center;
+  font-family: "Rokkitt", serif;
+  color: #fee84e;
+  font-size: 18px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.boro_links {
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+  line-height: 1.3em;
+}
+
+.boro_links a {
+  color: white;
+  text-decoration: none;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  padding-left: 20px;
+}
+
+.boro_links a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.boro_links a:hover {
+  color: #fee84e;
+}
